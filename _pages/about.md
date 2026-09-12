@@ -14,7 +14,7 @@ George Mason University
 
 [Email](mailto:rliu23@gmu.edu) · [Google Scholar](https://scholar.google.com/citations?user=4CK3RLMAAAAJ&hl=en&oi=ao) · [LinkedIn](https://www.linkedin.com/in/renyuan-liu-2929a5145/) · [CV](/files/cv.pdf)
 
-I am a Ph.D. candidate in Computer Science at George Mason University, advised by [Prof. Shuochao Yao](https://yscacaca.github.io/). My research focuses on **AI infrastructure and ML systems for efficient LLM inference and serving**. I am particularly interested in Custom GPU Kernels, scheduling, memory and I/O systems, and efficient execution on heterogeneous and resource-constrained hardware. I expect to graduate in May 2027.
+I am a Ph.D. candidate in Computer Science at George Mason University, advised by [Prof. Shuochao Yao](https://yscacaca.github.io/). My research focuses on **AI infrastructure and ML systems for efficient LLM inference and serving**. I am particularly interested in GPU kernel optimization, runtime scheduling, memory and I/O systems, and efficient execution on heterogeneous hardware. I expect to graduate in May 2027.
 
 Prior to George Mason, I received my M.S. in Automation and Signal from Institut d'Optique Théorique et Appliquée (Institut d'Optique Graduate School), and my B.E. in Optoelectronic Information Science and Engineering from Huazhong University of Science and Technology.
 
