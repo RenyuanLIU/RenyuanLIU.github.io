@@ -1,6 +1,8 @@
 ---
 permalink: /
 title: "Renyuan Liu"
+seo_title: "Renyuan Liu - George Mason University"
+description: "Renyuan Liu is a Ph.D. candidate in Computer Science at George Mason University working on AI infrastructure, ML systems, and efficient LLM inference and serving."
 author_profile: true
 redirect_from:
   - /about/
