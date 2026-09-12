@@ -13,6 +13,9 @@ author_profile: true
     <p><strong>{{ publication.venue }}</strong><br />
     {{ publication.authors }}<br />
     <a href="{{ publication.paperurl }}">{{ publication.title }}</a>{% if publication.award %}<br />
-    <strong>{{ publication.award }}</strong>{% endif %}</p>
+    <span class="award">{{ post.award }}</span>{% endif %}</p>
   </article>
 {% endfor %}
+
+
+
