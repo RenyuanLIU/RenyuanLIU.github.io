@@ -5,17 +5,22 @@ permalink: /publications/
 author_profile: true
 ---
 
-<p class="wordwrap">A complete list is also available on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
+<p class="wordwrap">
+  A complete list is also available on
+  <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+</p>
 
 {% assign publications = site.publications | sort: "date" | reverse %}
 {% for publication in publications %}
   <article class="archive__item">
-    <p><strong>{{ publication.venue }}</strong><br />
-    {{ publication.authors }}<br />
-    <a href="{{ publication.paperurl }}">{{ publication.title }}</a>{% if publication.award %}<br />
-    <span class="award">{{ post.award }}</span>{% endif %}</p>
+    <p>
+      <strong>{{ publication.venue }}</strong>
+      {% if publication.award %}
+        · <span class="award">{{ publication.award }}</span>
+      {% endif %}
+      <br />
+      {{ publication.authors }}<br />
+      <a href="{{ publication.paperurl }}">{{ publication.title }}</a>
+    </p>
   </article>
 {% endfor %}
-
-
-
