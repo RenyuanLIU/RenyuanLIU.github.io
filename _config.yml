@@ -23,7 +23,7 @@ repository               : "RenyuanLIU/RenyuanLIU.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           :
+  avatar           : "profile.png"
   name             : "Renyuan Liu"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. Candidate in Computer Science"
