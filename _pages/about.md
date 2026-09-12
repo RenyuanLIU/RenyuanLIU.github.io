@@ -18,4 +18,4 @@ I am a Ph.D. candidate in Computer Science at George Mason University, advised b
 
 Prior to George Mason, I received my M.S. in Automation and Signal from Institut d'Optique Théorique et Appliquée (Institut d'Optique Graduate School), and my B.E. in Optoelectronic Information Science and Engineering from Huazhong University of Science and Technology.
 
-**I am currently on the job market for full-time roles in AI infrastructure, ML systems, and LLM inference/serving starting in 2027.** Please feel free to reach out if you think there may be a good fit.
+**I am currently on the job market for full-time roles in AI infrastructure starting in 2027.** Please feel free to reach out if you think there may be a good fit.
