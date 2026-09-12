@@ -7,58 +7,19 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+[Download CV as PDF](/files/cv.pdf){: .btn .btn--primary }
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**George Mason University**, Fairfax, VA, USA<br />
+Ph.D. in Computer Science<br />
+Aug. 2021 – Expected May 2027
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**Institut d'Optique Théorique et Appliquée**, Paris, France<br />
+M.S. in Automation and Signal<br />
+Sep. 2017 – Nov. 2019
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**Huazhong University of Science and Technology**, Wuhan, China<br />
+B.E. in Optoelectronic Information Science and Engineering<br />
+Sep. 2013 – Jun. 2017

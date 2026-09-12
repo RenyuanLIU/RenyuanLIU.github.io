@@ -1,14 +1,19 @@
 ---
 layout: archive
-title: "Portfolio"
-permalink: /portfolio/
+title: "Research"
+permalink: /research/
 author_profile: true
+redirect_from:
+  - /portfolio/
 ---
 
-{% include base_path %}
-
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+{% assign research_projects = site.portfolio | sort: "date" | reverse %}
+{% for project in research_projects %}
+  <article class="archive__item">
+    <h2 class="archive__item-title">{{ project.title }}</h2>
+    <p><em>{{ project.subtitle }}</em><br />
+    <strong>{{ project.venue }}</strong></p>
+    {{ project.content }}
+    <p><a href="{{ project.paperurl }}">Paper</a>{% if project.award %}<br /><strong>{{ project.award }}</strong>{% endif %}</p>
+  </article>
 {% endfor %}
-
