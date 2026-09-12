@@ -16,7 +16,7 @@ redirect_from:
       <em>{{ project.subtitle }}</em><br />
       <strong>{{ project.venue }}</strong>
       {% if project.award %}
-        · <strong>{{ project.award }}</strong>
+        · <span class="award">{{ project.award }}</span>
       {% endif %}
     </p>
 
@@ -27,3 +27,6 @@ redirect_from:
     </p>
   </article>
 {% endfor %}
+
+
+
