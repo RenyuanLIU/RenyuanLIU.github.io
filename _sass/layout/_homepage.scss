@@ -23,7 +23,7 @@ html[data-theme="dark"] #main.homepage {
     min-width: 0;
     padding: 1.75rem 0;
 
-    &:first-child { padding-top: 0; }
+    &.introduction { padding-top: 0; }
     &:last-child { padding-bottom: 0; }
 
     > h2 {

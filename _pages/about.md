@@ -10,6 +10,8 @@ redirect_from:
   - /about.html
 ---
 
+{% include homepage-profile.html %}
+
 <section id="about" class="home-section introduction" aria-labelledby="about-title" markdown="1">
 <h1 id="about-title">{{ page.title }}</h1>
 
@@ -22,8 +24,6 @@ Prior to George Mason, I received my M.S. in Automation and Signal from Institut
 **I am currently on the job market for full-time roles in AI infrastructure starting in 2027.** Please feel free to reach out if you think there may be a good fit.
 
 </section>
-
-{% include homepage-profile.html %}
 
 <section id="research" class="home-section" aria-labelledby="research-title">
   <h2 id="research-title">Research Projects</h2>
