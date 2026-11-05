@@ -1,0 +1,81 @@
+/* Native anchors support direct URLs, keyboard navigation and browser history. */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+#main.homepage {
+  max-width: 960px;
+  margin: 2em auto 0;
+  animation: none;
+  line-height: 1.65;
+}
+
+.home-section {
+  display: flow-root;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--global-border-color);
+
+  &:first-child { padding-top: 0; }
+  &:last-child { border-bottom: 0; }
+
+  > h2 {
+    margin: 0 0 1rem;
+    padding: 0;
+    border: 0;
+    font-size: 1.45em;
+  }
+}
+
+.introduction h1 {
+  margin: 0 0 0.6rem;
+  font-size: 1.9em;
+}
+
+.home-portrait {
+  float: right;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 0 1rem 1.5rem;
+}
+
+.homepage .portfolio-entry {
+  margin-bottom: 1.5rem;
+
+  h3 { margin: 0 0 0.35rem; font-size: 1.15em; }
+  p { margin-bottom: 0.6rem; }
+  &:last-child { margin-bottom: 0; }
+}
+
+.homepage .publication-entry {
+  margin-bottom: 1.1rem;
+  p { margin: 0; }
+  &:last-child { margin-bottom: 0; }
+}
+
+.homepage a { overflow-wrap: anywhere; }
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+@media (max-width: 600px) {
+  .home-portrait {
+    width: 100px;
+    height: 100px;
+    margin-left: 1rem;
+  }
+  .introduction h1 { font-size: 1.55em; }
+  #main.homepage { margin-top: 1.25em; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
