@@ -30,6 +30,7 @@ author:
   location         : "Fairfax, VA, USA"
   employer         : "George Mason University"
   uri              : # URL
+  cv               : "/files/cv.pdf"
   email            : "rliu23@gmu.edu"
 
   # Academic websites

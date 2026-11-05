@@ -1,0 +1,20 @@
+{% assign profile = site.author %}
+<aside class="home-profile" aria-label="Profile and contact links">
+  {% if profile.avatar contains '://' %}
+    {% assign portrait_url = profile.avatar %}
+  {% else %}
+    {% assign portrait_url = '/images/' | append: profile.avatar | relative_url %}
+  {% endif %}
+  <img class="home-portrait" src="{{ portrait_url }}" alt="{{ profile.name }}" width="156" height="156" fetchpriority="high" />
+  <div class="home-profile__details">
+    <p class="home-profile__role">{{ profile.bio }}</p>
+    <p>{{ profile.employer }}<br />{{ profile.location }}</p>
+  </div>
+  <ul class="contact-links" aria-label="Contact and external links">
+    {% if profile.email %}<li><a href="mailto:{{ profile.email }}"><i class="fas fa-envelope" aria-hidden="true"></i>Email</a></li>{% endif %}
+    {% if profile.googlescholar %}<li><a href="{{ profile.googlescholar }}"><i class="fas fa-graduation-cap" aria-hidden="true"></i>Google Scholar</a></li>{% endif %}
+    {% if profile.github %}<li><a href="https://github.com/{{ profile.github }}"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a></li>{% endif %}
+    {% if profile.linkedin %}<li><a href="https://www.linkedin.com/in/{{ profile.linkedin }}/"><i class="fab fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>{% endif %}
+    {% if profile.cv %}<li><a href="{{ profile.cv | relative_url }}"><i class="fas fa-file-lines" aria-hidden="true"></i>CV</a></li>{% endif %}
+  </ul>
+</aside>

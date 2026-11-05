@@ -11,7 +11,6 @@ redirect_from:
 ---
 
 <section id="about" class="home-section introduction" aria-labelledby="about-title" markdown="1">
-<img class="home-portrait" src="{{ '/images/' | append: site.author.avatar | relative_url }}" alt="{{ site.author.name }}" width="160" height="160" fetchpriority="high" />
 <h1 id="about-title">{{ page.title }}</h1>
 
 **AI Infrastructure · LLM Inference · GPU Systems · ML Systems**
@@ -24,6 +23,8 @@ Prior to George Mason, I received my M.S. in Automation and Signal from Institut
 
 </section>
 
+{% include homepage-profile.html %}
+
 <section id="research" class="home-section" aria-labelledby="research-title">
   <h2 id="research-title">Research Projects</h2>
   {% include research-list.html %}
@@ -32,15 +33,4 @@ Prior to George Mason, I received my M.S. in Automation and Signal from Institut
 <section id="publications" class="home-section" aria-labelledby="publications-title">
   <h2 id="publications-title">Publications</h2>
   {% include publication-list.html %}
-</section>
-
-<section id="contact" class="home-section" aria-labelledby="contact-title">
-  <h2 id="contact-title">Contact</h2>
-  <p>Based in {{ site.author.location }}. Get in touch at <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.</p>
-  <ul class="contact-links" aria-label="External links">
-    <li><a href="{{ site.author.googlescholar }}">Google Scholar</a></li>
-    <li><a href="https://github.com/{{ site.author.github }}">GitHub</a></li>
-    <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">LinkedIn</a></li>
-    <li><a href="{{ '/files/cv.pdf' | relative_url }}">CV</a></li>
-  </ul>
 </section>
