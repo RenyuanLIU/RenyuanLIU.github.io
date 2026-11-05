@@ -19,7 +19,7 @@ redirect_from:
 
 I am a Ph.D. candidate in Computer Science at George Mason University, advised by [Prof. Shuochao Yao](https://yscacaca.github.io/). My research focuses on **AI infrastructure and ML systems for efficient LLM inference and serving**. I am particularly interested in GPU kernel optimization, runtime scheduling, memory and I/O systems, and efficient execution on heterogeneous hardware. I expect to graduate in May 2027.
 
-Prior to George Mason, I received my M.S. in Automation and Signal from Institut d'Optique Théorique et Appliquée (Institut d'Optique Graduate School), and my B.E. in Optoelectronic Information Science and Engineering from Huazhong University of Science and Technology.
+Prior to George Mason, I received my M.S. in Automation and Signal Processing from Institut d'Optique Théorique et Appliquée (Institut d'Optique Graduate School, Université Paris-Saclay) and my B.E. in Optoelectronic Information Science and Engineering from Huazhong University of Science and Technology.
 
 **I am currently on the job market for full-time roles in AI infrastructure starting in 2027.** Please feel free to reach out if you think there may be a good fit.
 
