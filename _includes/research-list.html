@@ -1,0 +1,20 @@
+{% assign research_projects = site.portfolio | sort: "date" | reverse %}
+{% for project in research_projects %}
+  <article class="archive__item portfolio-entry">
+    <h3 class="archive__item-title">{{ project.title }}</h3>
+
+    <p>
+      <em>{{ project.subtitle }}</em><br />
+      <strong>{{ project.venue }}</strong>
+      {% if project.award %}
+        · <span class="award">{{ project.award }}</span>
+      {% endif %}
+    </p>
+
+    {{ project.content | markdownify }}
+
+    <p>
+      <a href="{{ project.paperurl }}">Paper</a>
+    </p>
+  </article>
+{% endfor %}

@@ -88,7 +88,6 @@ if (plotlyElements.length > 0) {
 $(document).ready(function () {
   // SCSS SETTINGS - These should be the same as the settings in the relevant files 
   const scssLarge = 925;          // pixels, from /_sass/_themes.scss
-  const scssMastheadHeight = 70;  // pixels, from the current theme (e.g., /_sass/theme/_default.scss)
 
   // If the user hasn't chosen a theme, follow the OS preference
   setTheme();
@@ -133,10 +132,15 @@ $(document).ready(function () {
     }
   });
 
-  // Init smooth scroll, this needs to be slightly more than then fixed masthead height
-  $("a").smoothScroll({
-    offset: -scssMastheadHeight,
-    preventDefault: false,
-  });
+  // Native CSS scrolling preserves anchor history and reduced-motion preferences.
 
+});
+
+// Close the mobile menu after choosing a homepage section. Delegation handles
+// links moved into the dropdown when the viewport changes.
+jQuery(function ($) {
+  $("#site-nav .hidden-links").on("click", "a", function () {
+    $("#site-nav .hidden-links").addClass("hidden");
+    $("#site-nav button").removeClass("close");
+  });
 });
